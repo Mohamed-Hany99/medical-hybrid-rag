@@ -1,0 +1,18 @@
+# --- Core Framework ---
+fastapi==0.141.1
+uvicorn==0.52.3
+pydantic==2.13.4
+python-dotenv==1.2.3
+
+# --- Databases ---
+supabase==2.31.0
+neo4j==6.2.0
+
+# --- LLM & AI Providers ---
+groq==1.6.0
+huggingface_hub==1.27.0
+
+# --- PDF Processing & Utilities ---
+pymupdf==1.28.2
+tiktoken==0.13.0
+numpy==1.26.4
