@@ -65,7 +65,7 @@ NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", "neo4j")
 # Graph RAG Retrieval Limits
 # ============================================================
 TOP_K = 3
-GRAPH_TOP_K = 5
+GRAPH_TOP_K = 3
 RAG_MAX_TOKENS = 2048
 RAG_TEMPERATURE = 0.0
 
