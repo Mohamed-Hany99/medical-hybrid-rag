@@ -72,5 +72,5 @@ def search_supabase(query: str, top_k: int = 3):
 
 if __name__ == "__main__":
     # غيّر السؤال ده بأي سؤال طبي له علاقة بمحتوى الـ PDF اللي رفعته
-    test_query = "What are the primary risk factors for cardiovascular diseases according to the document?"
+    test_query = "Provide short bullet points on evidence‑based interventions for elevated homocysteine, very short sleep duration, and extreme BMI in a 50‑year‑old male to reduce cardiovascular risk."
     search_supabase(test_query)
